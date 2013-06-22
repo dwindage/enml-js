@@ -91,6 +91,7 @@
     text = text.replace(/(<\/(div|ui|li)>)/ig,"\n");
     text = text.replace(/(<(li)>)/ig," - ");
     text = text.replace(/(<([^>]+)>)/ig,"");
+// modified by dwindage break replace newline to space
 //    text = text.replace(/(\r\n|\n|\r)/gm," ");
     text = text.replace(/(\s+)/gm," ");
 
